@@ -18,17 +18,17 @@ color: #000;
 font-family: Roboto, sans-serif;
 font-weight: 700;
 text-align: center;
-display: flex;
 align-items: center;
 justify-content: center;
+display: flex;
 }
 
-.header {
-position:fixed;
-text-align : center;
-top: 200px;
+/*.header {
+position: static;
+padding-top: 0;
+width: 100%;
 }
-
+*/
 .quote-container { /*quote-container is the class seen in html file */
   width: auto;
   max-width: 900px;
@@ -116,4 +116,6 @@ button:active {
   .quote-text {
     font-size: 2.5rem;
   }
+
+
 }
